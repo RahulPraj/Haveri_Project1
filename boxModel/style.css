@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* margin-top: 10px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 30px; */
+    /* margin: 50px;
+    margin: 20px 30px 40px 50px;
+     */
+     margin: 20px 50px;
+     /* padding-top: 20px; */
+     padding: 20px 50px;
+     /* border: 10px solid black; */
+     border-right: 5px solid black;
+
+     /* display: inline; */
+     display: inline-block;
+}
+
+span{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    /* margin: 20px 30px 40px 50px;*/ 
+     margin: 20px 50px;
+     padding: 20px 50px;
+     /* border: 10px solid black; */
+     border-right: 5px solid black;
+     /* display: block; */
+     display: inline-block;
+
+}

@@ -1,0 +1,23 @@
+/* h1{
+    font-size: 30px;
+    color: red;
+} */
+
+#special{
+    font-size: 30px;
+    color: red;
+}
+
+.heading{
+    font-size: 50px;
+    color: blue;
+}
+
+a[href="http://facebook.com"]{
+    font-size: 50px;
+    color: blueviolet;
+}
+
+*{
+    background-color: lightsalmon;
+}

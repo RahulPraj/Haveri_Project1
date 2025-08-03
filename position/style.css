@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px  solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#static .middle{
+    position: static;
+    top: 100px;
+    right: 200px;
+    bottom: 200px;
+    left: 200px;
+}
+
+
+#relative .middle{
+    position: relative;
+    /* top: 100px;
+    right: 200px; */
+}
+
+
+/* #absolute{
+    position: relative;
+} */
+
+/* #absolute .middle{
+    position: absolute;
+    top: 100px;
+} */
+
+/* #fixed .middle{
+    position: fixed;
+    top: 200px;
+} */
+
+#sticky{
+    height: 700px;
+    border: 2px solid blue;
+}
+
+#sticky .middle{
+    position: sticky;
+    top: 100px;
+}
