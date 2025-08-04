@@ -100,3 +100,71 @@ body{
     font-weight: 600;
     width: 40%;
 }
+
+/* chairman message */
+.chairman-container{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.chairman-img{
+    max-width: 250px;
+    border-radius: 10px;
+}
+
+#programmes ul{
+   list-style: none;
+   
+}
+
+/* certification course */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+.course-card{
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 12px rgba((0), 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+.course-card:hover{
+    transform:  translateY(-5px);
+}
+
+.course-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.course-card h3{
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.course-card ul{
+    padding-left: 20px;
+    list-style: none;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #003049;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
