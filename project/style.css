@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fdfdfd;
+    color: #222;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    background-color: #003049;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    box-shadow: 0 2px 10px rgba((0), 0, 0, 0.2);
+}
+
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-section h1{
+    font-size: 1.4rem;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #f4f4f4;
+    font-weight: 500;
+    transition:  0.3s ease;
+}
+
+.nav-links a:hover{
+    color: #ffb703;
+}
+
+/* main */
+
+.section{
+    padding: 30px 20px;
+    max-width: 85%;
+    margin: auto;
+}
+
+.section h2{
+    font-size: 2rem;
+    color: #003049;
+    margin-bottom: 15px;
+}
+
+.section p, .section ul{
+    font-size: 1rem;
+}
+
+.section h3{
+    margin-top: 5px;
+}
+
+.college-table{
+    width: 100%;
+    max-width: 600px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba((0), 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.college-table th,
+.college-table td{
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.college-table th{
+    background-color: #007bff;
+    color: #fff;
+    font-weight: 600;
+    width: 40%;
+}
